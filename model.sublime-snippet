@@ -1,0 +1,23 @@
+<snippet>
+   <content><![CDATA[
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class ModelName extends CI_Model {
+
+    var $title   = '';
+
+    function __construct()
+    {
+        // Call the Model constructor
+        parent::__construct();
+    }
+}
+
+/* End of file ModelName.php */
+/* Location: ./application/controllers/ModelName.php */
+]]></content>
+   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+   <tabTrigger>model</tabTrigger>
+   <!-- Optional: Set a scope to limit where the snippet will trigger -->
+   <scope>source.php</scope>
+</snippet>
