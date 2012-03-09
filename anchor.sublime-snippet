@@ -1,10 +1,9 @@
 <snippet>
    <content><![CDATA[
-<?php
-class Table_model extends MY_Model { }
+anchor('news/local/123', 'My News', 'title="News title"');
 ]]></content>
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-   <tabTrigger>model</tabTrigger>
+   <tabTrigger>anchor</tabTrigger>
    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-   <!-- <scope>source.python</scope> -->
+   <scope>source.php</scope>
 </snippet>
