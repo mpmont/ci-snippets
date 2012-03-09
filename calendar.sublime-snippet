@@ -1,0 +1,18 @@
+<snippet>
+   <content><![CDATA[
+$this->load->library('calendar');
+
+$data = array(
+               3  => 'http://example.com/news/article/2006/03/',
+               7  => 'http://example.com/news/article/2006/07/',
+               13 => 'http://example.com/news/article/2006/13/',
+               26 => 'http://example.com/news/article/2006/26/'
+             );
+
+echo $this->calendar->generate(2006, 6, $data);
+]]></content>
+   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+   <tabTrigger>calendar</tabTrigger>
+   <!-- Optional: Set a scope to limit where the snippet will trigger -->
+   <scope>source.php</scope>
+</snippet>
