@@ -1,0 +1,42 @@
+<snippet>
+   <content><![CDATA[
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+class Controllername extends MY_Controller {
+
+   public function __construct()
+   {
+      parent::__construct();
+      //Load Dependencies
+
+   }
+
+   // List all your items
+   public function index( $offset = 0 )
+   {
+
+   }
+
+   // Add a new item
+   public function add()
+   {
+
+   }
+
+   //Update one item
+   public function update( $id )
+   {
+
+   }
+
+   //Delete one item
+   public function delete( $id )
+   {
+
+   }
+}
+]]></content>
+   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+   <tabTrigger>crud</tabTrigger>
+   <!-- Optional: Set a scope to limit where the snippet will trigger -->
+   <!-- <scope>source.python</scope> -->
+</snippet>
