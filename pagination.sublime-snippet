@@ -1,0 +1,35 @@
+<snippet>
+   <content><![CDATA[
+$this->load->library('pagination');
+
+$config['base_url'] = 'http://example.com/index.php/test/page/';
+$config['total_rows'] = 200;
+$config['per_page'] = 20;
+$config['uri_segment'] = 3;
+$config['num_links'] = 4;
+$config['full_tag_open'] = '<p>';
+$config['full_tag_close'] = '</p>';
+$config['first_link'] = 'First';
+$config['first_tag_open'] = '<div>';
+$config['first_tag_close'] = '</div>';
+$config['last_link'] = 'Last';
+$config['last_tag_open'] = '<div>';
+$config['last_tag_close'] = '</div>';
+$config['next_link'] = '&gt;';
+$config['next_tag_open'] = '<div>';
+$config['next_tag_close'] = '</div>';
+$config['prev_link'] = '&lt;';
+$config['prev_tag_open'] = '<div>';
+$config['prev_tag_close'] = '</div>';
+$config['cur_tag_open'] = '<b>';
+$config['cur_tag_close'] = '</b>';
+
+$this->pagination->initialize($config);
+
+echo $this->pagination->create_links();
+]]></content>
+   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+   <tabTrigger>pagination</tabTrigger>
+   <!-- Optional: Set a scope to limit where the snippet will trigger -->
+   <scope>source.php</scope>
+</snippet>
