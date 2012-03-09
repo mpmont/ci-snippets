@@ -1,0 +1,17 @@
+<snippet>
+   <content><![CDATA[
+$data = array(
+               'id'      => 'sku_123ABC',
+               'qty'     => 1,
+               'price'   => 39.95,
+               'name'    => 'T-Shirt',
+               'options' => array('Size' => 'L', 'Color' => 'Red')
+            );
+
+$this->cart->insert($data);
+]]></content>
+   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+   <tabTrigger>cart_add</tabTrigger>
+   <!-- Optional: Set a scope to limit where the snippet will trigger -->
+   <scope>source.php</scope>
+</snippet>
