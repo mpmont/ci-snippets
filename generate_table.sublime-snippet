@@ -3,13 +3,13 @@
 \$this->load->library('table');
 
 \$data = array(
-             array('Name', 'Color', 'Size'),
-             array('Fred', 'Blue', 'Small'),
-             array('Mary', 'Red', 'Large'),
-             array('John', 'Green', 'Medium')
+             array('${1:name}', '${2:Color}', '${3:Size}'),
+             array('${4:Fred}', '${5:Blue}', '${6:Small}'),
+             array('${7:Mary}', '${8:Red}', '${9:Large}'),
+             array('${10:John}', '${11:Green}', '${12:Medium}')
              );
 
-echo \$this->table->generate($data);
+echo \$this->table->generate(\$data);
 ]]></content>
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
    <tabTrigger>generate_table</tabTrigger>

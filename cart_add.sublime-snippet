@@ -1,11 +1,11 @@
 <snippet>
    <content><![CDATA[
 \$data = array(
-               'id'      => 'sku_123ABC',
-               'qty'     => 1,
-               'price'   => 39.95,
-               'name'    => 'T-Shirt',
-               'options' => array('Size' => 'L', 'Color' => 'Red')
+               'id'      => '${1:sku_123ABC}',
+               'qty'     => ${2:1},
+               'price'   => '${3:19.56}',
+               'name'    => '${4:T-Shirt}',
+               'options' => array('${5:Size}' => '${6:L}', '${7:Color}' => '${8:Red})'
             );
 
 \$this->cart->insert($data);

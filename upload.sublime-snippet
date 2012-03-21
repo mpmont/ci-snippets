@@ -1,12 +1,12 @@
 <snippet>
    <content><![CDATA[
-\$config['upload_path'] = './uploads/';
-\$config['allowed_types'] = 'gif|jpg|png';
-\$config['max_size']  = '100';
-\$config['max_width']  = '1024';
-\$config['max_height']  = '768';
+\$config['upload_path'] = '${1:./uploads/}';
+\$config['allowed_types'] = '${2:gif|jpg|png}';
+\$config['max_size']  = '${3:100}';
+\$config['max_width']  = '${4:1024}';
+\$config['max_height']  = '${5:768}';
 
-\$this->load->library('upload', $config);
+\$this->load->library('upload', \$config);
 
 if ( ! \$this->upload->do_upload()){
    \$error = array('error' => \$this->upload->display_errors());

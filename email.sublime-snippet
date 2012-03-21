@@ -2,13 +2,13 @@
    <content><![CDATA[
 \$this->load->library('email');
 
-\$this->email->from('your@example.com', 'Your Name');
-\$this->email->to('someone@example.com');
-\$this->email->cc('another@another-example.com');
-\$this->email->bcc('them@their-example.com');
+\$this->email->from('${1:email@email.com}', '${2:Name}');
+\$this->email->to('${3:someone@example.com}');
+\$this->email->cc('${4:another@example.com}');
+\$this->email->bcc('${5:and@another.com}');
 
-\$this->email->subject('Email Test');
-\$this->email->message('Testing the email class.');
+\$this->email->subject('${6:subject}');
+\$this->email->message('${7:message}');
 
 \$this->email->send();
 

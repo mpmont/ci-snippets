@@ -1,6 +1,6 @@
 <snippet>
    <content><![CDATA[
-form_submit('name', 'value');
+form_submit('${1:name}', '${2:value}');
 ]]></content>
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
    <tabTrigger>form_submit</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
    <content><![CDATA[
-anchor('news/local/123', 'My News', 'title="News title"');
+anchor('${1:url}', '${2:linkname}', '${3:attributs}'');
 ]]></content>
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
    <tabTrigger>anchor</tabTrigger>

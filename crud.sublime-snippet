@@ -1,7 +1,7 @@
 <snippet>
    <content><![CDATA[
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-class Controllername extends MY_Controller {
+class ${1:Controllername} extends CI_Controller {
 
    public function __construct()
    {
@@ -11,7 +11,7 @@ class Controllername extends MY_Controller {
    }
 
    // List all your items
-   public function index( $offset = 0 )
+   public function index( \$offset = 0 )
    {
 
    }
@@ -23,13 +23,13 @@ class Controllername extends MY_Controller {
    }
 
    //Update one item
-   public function update( $id )
+   public function update( \$id = NULL )
    {
 
    }
 
    //Delete one item
-   public function delete( $id )
+   public function delete( \$id = NULL )
    {
 
    }

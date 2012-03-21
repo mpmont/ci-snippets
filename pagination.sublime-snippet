@@ -2,29 +2,29 @@
    <content><![CDATA[
 \$this->load->library('pagination');
 
-\$config['base_url'] = 'http://example.com/index.php/test/page/';
-\$config['total_rows'] = 200;
-\$config['per_page'] = 20;
-\$config['uri_segment'] = 3;
-\$config['num_links'] = 4;
-\$config['full_tag_open'] = '<p>';
-\$config['full_tag_close'] = '</p>';
-\$config['first_link'] = 'First';
-\$config['first_tag_open'] = '<div>';
-\$config['first_tag_close'] = '</div>';
-\$config['last_link'] = 'Last';
-\$config['last_tag_open'] = '<div>';
-\$config['last_tag_close'] = '</div>';
-\$config['next_link'] = '&gt;';
-\$config['next_tag_open'] = '<div>';
-\$config['next_tag_close'] = '</div>';
-\$config['prev_link'] = '&lt;';
-\$config['prev_tag_open'] = '<div>';
-\$config['prev_tag_close'] = '</div>';
-\$config['cur_tag_open'] = '<b>';
-\$config['cur_tag_close'] = '</b>';
+\$config['base_url'] = '${1:url}';
+\$config['total_rows'] = ${2:100};
+\$config['per_page'] = ${3:10};
+\$config['uri_segment'] = ${4:3};
+\$config['num_links'] = ${4:4};
+\$config['full_tag_open'] = '${5:<p>}';
+\$config['full_tag_close'] = '${6:</p>}';
+\$config['first_link'] = '${7:First}';
+\$config['first_tag_open'] = '${8:<div>}';
+\$config['first_tag_close'] = '${9:</div>}';
+\$config['last_link'] = '${10:Last}';
+\$config['last_tag_open'] = '${11:<div>}';
+\$config['last_tag_close'] = '${12:</div>}';
+\$config['next_link'] = '${13:&gt};';
+\$config['next_tag_open'] = '${14:<div>}';
+\$config['next_tag_close'] = '${15:</div>}';
+\$config['prev_link'] = '${16:&lt;}';
+\$config['prev_tag_open'] = '${17:<div>}';
+\$config['prev_tag_close'] = '${18:</div>}';
+\$config['cur_tag_open'] = '${19:<b>}';
+\$config['cur_tag_close'] = '${20:</b>}';
 
-\$this->pagination->initialize($config);
+\$this->pagination->initialize(\$config);
 
 echo \$this->pagination->create_links();
 ]]></content>

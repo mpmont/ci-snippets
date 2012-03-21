@@ -2,7 +2,7 @@
    <content><![CDATA[
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class ControllerName extends CI_Controller {
+class ${1:Controllername} extends CI_Controller {
 
    public function index()
    {
@@ -10,8 +10,8 @@ class ControllerName extends CI_Controller {
 
 }
 
-/* End of file ControllerName.php */
-/* Location: ./application/controllers/ControllerName.php */
+/* End of file ${2:Controllername}.php */
+/* Location: ./application/controllers/${3:Controllername}.php */
 ]]></content>
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
    <tabTrigger>controller</tabTrigger>
