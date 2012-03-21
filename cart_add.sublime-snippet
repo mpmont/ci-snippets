@@ -1,6 +1,6 @@
 <snippet>
    <content><![CDATA[
-$data = array(
+\$data = array(
                'id'      => 'sku_123ABC',
                'qty'     => 1,
                'price'   => 39.95,
@@ -8,7 +8,7 @@ $data = array(
                'options' => array('Size' => 'L', 'Color' => 'Red')
             );
 
-$this->cart->insert($data);
+\$this->cart->insert($data);
 ]]></content>
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
    <tabTrigger>cart_add</tabTrigger>

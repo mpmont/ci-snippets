@@ -1,15 +1,15 @@
 <snippet>
    <content><![CDATA[
-$this->load->library('table');
+\$this->load->library('table');
 
-$data = array(
+\$data = array(
              array('Name', 'Color', 'Size'),
              array('Fred', 'Blue', 'Small'),
              array('Mary', 'Red', 'Large'),
              array('John', 'Green', 'Medium')
              );
 
-echo $this->table->generate($data);
+echo \$this->table->generate($data);
 ]]></content>
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
    <tabTrigger>generate_table</tabTrigger>
