@@ -2,7 +2,7 @@
    <content><![CDATA[
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class ${1:Controllername} extends ${2:CI}_Controller {
+class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:name}} extends ${2:CI}_Controller {
 
    public function index()
    {
@@ -10,8 +10,8 @@ class ${1:Controllername} extends ${2:CI}_Controller {
 
 }
 
-/* End of file ${3:Controllername}.php */
-/* Location: ./application/controllers/${4:Controllername}.php */
+/* End of file ${3:${TM_FILENAME/(.+)\..+|.*/$1/:name}}.php */
+/* Location: ./application/controllers/$3.php */
 ]]></content>
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
    <tabTrigger>controller</tabTrigger>
