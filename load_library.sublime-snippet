@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$this->load->library('${1:Library Name}'${2:, \$config});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>load_library</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <description>Load Codeigniter Library</description>
+</snippet>
