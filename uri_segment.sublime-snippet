@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$this->uri->segment(${1:3})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>uri_segment</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <description>URI Segment</description>
+</snippet>
