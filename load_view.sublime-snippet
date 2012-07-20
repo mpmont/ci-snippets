@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$this->load->view('${1:View File}'${2:, \$${4:data}}${3:, FALSE});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>load_view</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <description>Load View</description>
+</snippet>
