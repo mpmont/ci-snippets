@@ -5,5 +5,6 @@ form_textarea('${1:name}', '${2:value}', '${3:attributs}');
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
    <tabTrigger>form_textarea</tabTrigger>
    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-   <!-- <scope>source.php</scope> -->
+   <scope>source.php, source.php.embedded.block.html</scope>
+   <description>CI - Form Helper - Text Area</description>
 </snippet>

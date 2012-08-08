@@ -6,5 +6,5 @@
     <tabTrigger>load_view</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
-    <description>Load View</description>
+    <description>CI - Load View</description>
 </snippet>

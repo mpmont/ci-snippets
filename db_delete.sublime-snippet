@@ -6,5 +6,5 @@
     <tabTrigger>db_delete</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
-    <description>Active Record DB Delete</description>
+    <description>CI - Active Record DB Delete</description>
 </snippet>

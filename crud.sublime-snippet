@@ -1,12 +1,13 @@
 <snippet>
    <content><![CDATA[
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-class ${1:Controllername} extends CI_Controller {
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}} extends ${2:CI}_Controller {
 
    public function __construct()
    {
       parent::__construct();
-      //Load Dependencies
+      ${0://Load Dependencies}
 
    }
 
@@ -34,9 +35,13 @@ class ${1:Controllername} extends CI_Controller {
 
    }
 }
+
+/* End of file ${1/(.+)/\l$1/:Controllername}.php */
+/* Location: ./application/controllers/${1/(.+)/\l$1/:Controllername}.php */
 ]]></content>
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
    <tabTrigger>crud</tabTrigger>
    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-   <!-- <scope>source.python</scope> -->
+   <scope>source.php</scope>
+   <description>CI - Simple CRUD Controller</description>
 </snippet>
