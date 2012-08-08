@@ -1,6 +1,6 @@
 <snippet>
    <content><![CDATA[
-$this->session->flashdata('${1:name}');
+\$this->session->flashdata('${1:name}');
 ]]></content>
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
    <tabTrigger>flashdata</tabTrigger>
