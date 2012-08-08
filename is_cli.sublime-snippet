@@ -1,0 +1,6 @@
+<snippet>
+   <content><![CDATA[
+\$this->input->is_cli_request()
+]]></content>
+   <tabTrigger>is_cli</tabTrigger>
+</snippet>

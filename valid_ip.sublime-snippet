@@ -1,0 +1,6 @@
+<snippet>
+   <content><![CDATA[
+\$this->input->valid_ip('${1:ip}')
+]]></content>
+   <tabTrigger>valid_ip</tabTrigger>
+</snippet>

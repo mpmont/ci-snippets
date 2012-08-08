@@ -1,0 +1,6 @@
+<snippet>
+   <content><![CDATA[
+\$this->input->post('${1:name}');
+]]></content>
+   <tabTrigger>_post</tabTrigger>
+</snippet>

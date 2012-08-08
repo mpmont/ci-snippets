@@ -1,0 +1,6 @@
+<snippet>
+   <content><![CDATA[
+\$this->input->set_cookie('${1:name}', '${2:value}', '${3:expire}', '${4:domain}', '${5:path}','${6:prefix}', '${7:secure}');
+]]></content>
+   <tabTrigger>set_cookie</tabTrigger>
+</snippet>

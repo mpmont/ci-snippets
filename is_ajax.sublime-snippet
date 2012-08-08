@@ -1,0 +1,6 @@
+<snippet>
+   <content><![CDATA[
+\$this->input->is_ajax_request()
+]]></content>
+   <tabTrigger>is_ajax</tabTrigger>
+</snippet>

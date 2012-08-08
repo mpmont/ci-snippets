@@ -1,0 +1,6 @@
+<snippet>
+   <content><![CDATA[
+\$this->input->get_request_header();
+]]></content>
+   <tabTrigger>get_request_header</tabTrigger>
+</snippet>
