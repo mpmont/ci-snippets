@@ -17,3 +17,74 @@ If you haven't got Package Control installed you will need to make a clone of th
 [package_control]: http://wbond.net/sublime_packages/package_control
 
 If you find error or wathever just fork it and send me a pull request.
+
+### List of avaiable shortcuts ###
+
+
+#### Class
+
+* _cookie
+* _get
+* _get_post
+* _post
+* _server
+* set_cookie
+* get_request_header
+* request_headers
+* ip_address
+* valid_ip
+* user_agent
+* is_ajax
+* is_cli
+
+
+#### Helper 
+
+* anchor
+* form_checkbox
+* form_dropdown
+* form_hidden
+* form_input
+* form_open
+* form_password
+* form_submit
+* form_textarea
+* form_upload
+* form_validation
+* uri_segment
+
+#### Library
+
+* calendar 
+* cart_add
+* cart_update
+* display_cart
+* email
+* flashdata
+* set_flashdata
+* generate_table
+* pagination
+* upload
+
+#### Active Record
+
+* db_delete
+* db_get
+* db_insert
+* db_select
+* db_update
+* db_where
+* 
+
+
+#### Misc
+
+* ci_start
+* construct
+* controller
+* model
+* crud
+* load_helper
+* load_library
+* load_model
+* load_view
