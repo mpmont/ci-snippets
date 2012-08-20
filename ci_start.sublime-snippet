@@ -10,6 +10,6 @@ $0
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>ci_start</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!--<scope>source.php</scope>-->
+    <scope>source.php, text.html.basic, text.plain</scope>
     <description>CI - Generic Starter Class</description>
 </snippet>
