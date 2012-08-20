@@ -14,6 +14,6 @@ class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:ModelName}} extends ${2:CI}_Model {
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
    <tabTrigger>model</tabTrigger>
    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.php</scope> -->
+    <scope>source.php, text.html.basic, text.plain</scope>
     <description>CI - Base Model</description>
 </snippet>
