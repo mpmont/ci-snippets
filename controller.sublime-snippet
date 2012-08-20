@@ -17,6 +17,6 @@ class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}} extends ${2:CI}_Contr
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>controller</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.php</scope>
+    <!--<scope>source.php</scope>-->
     <description>CI - Base Controller</description>
 </snippet>
