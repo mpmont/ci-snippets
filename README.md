@@ -38,7 +38,7 @@ If you find error or wathever just fork it and send me a pull request.
 * is_cli
 
 
-#### Helper 
+#### Helper
 
 * anchor
 * form_checkbox
@@ -55,7 +55,7 @@ If you find error or wathever just fork it and send me a pull request.
 
 #### Library
 
-* calendar 
+* calendar
 * cart_add
 * cart_update
 * display_cart
@@ -74,7 +74,7 @@ If you find error or wathever just fork it and send me a pull request.
 * db_select
 * db_update
 * db_where
-* 
+*
 
 
 #### Misc
@@ -88,3 +88,18 @@ If you find error or wathever just fork it and send me a pull request.
 * load_library
 * load_model
 * load_view
+* log
+
+## List of Contributors
+
+- Marco Monteiro
+- Jesse Robertson
+- Amitava Das Gupta
+- rmclain
+- Tutkun
+- Frank Parent
+- Nicolas Widart
+- Ulises Vázquez Espinoza
+- pauloamc
+- shishir06
+- Deden Fathurahman
