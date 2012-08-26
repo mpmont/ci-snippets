@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$this->db->insert('${1:Table}', \$${2:object});
+\$this->db->update('${1:Table}', \$${2:object});
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>db_update</tabTrigger>
