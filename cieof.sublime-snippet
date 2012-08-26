@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[/* End of file $TM_FILENAME */
+/* Location: ./${TM_FILEPATH/^((?!application).)*//} */]]></content>
+    <tabTrigger>eof</tabTrigger>
+    <scope>source.php</scope>
+    <description>End of file</description>
+</snippet>
