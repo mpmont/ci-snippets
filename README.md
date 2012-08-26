@@ -36,7 +36,11 @@ If you find error or wathever just fork it and send me a pull request.
 * user_agent
 * is_ajax
 * is_cli
-
+* fetch_method
+* fetch_class
+* fetch_module
+* output_json
+* set_json
 
 #### Helper
 
@@ -89,6 +93,9 @@ If you find error or wathever just fork it and send me a pull request.
 * load_model
 * load_view
 * log
+* ciline
+* eof
+
 
 ## List of Contributors
 
@@ -103,3 +110,4 @@ If you find error or wathever just fork it and send me a pull request.
 - pauloamc
 - shishir06
 - Deden Fathurahman
+- Shawn Crigger
