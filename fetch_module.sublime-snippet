@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+$this->router->fetch_module('');
+]]></content>
+	<tabTrigger>_module</tabTrigger>
+</snippet>
