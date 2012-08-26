@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+$this->output->set_content_type('application/json');
+]]></content>
+	<tabTrigger>set_json</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

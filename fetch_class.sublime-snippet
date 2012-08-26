@@ -2,5 +2,6 @@
 	<content><![CDATA[
 $this->router->fetch_class();
 ]]></content>
-	<tabTrigger>_class</tabTrigger>
+	<tabTrigger>fetch_class</tabTrigger>
+	<scope>source.php</scope>
 </snippet>

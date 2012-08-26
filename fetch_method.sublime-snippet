@@ -2,5 +2,6 @@
 	<content><![CDATA[
 $this->router->fetch_method();
 ]]></content>
-	<tabTrigger>_method</tabTrigger>
+	<tabTrigger>fetch_method</tabTrigger>
+	<scope>source.php</scope>
 </snippet>

@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-$this->router->fetch_module('');
+$this->router->fetch_module();
 ]]></content>
-	<tabTrigger>_module</tabTrigger>
+	<tabTrigger>fetch_module</tabTrigger>
+	<scope>source.php</scope>
 </snippet>
