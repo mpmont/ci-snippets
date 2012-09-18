@@ -8,8 +8,9 @@ class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:ModelName}} extends ${2:CI}_Model {
 
 }
 
-/* End of file ${1/(.+)/\l$1/:ModelName}.php */
-/* Location: ./application/controllers/${1/(.+)/\l$1/:ModelName}.php */
+/* End of file ${TM_FILENAME:${1/(.+)/\l$1.php/}} */
+/* Location: ./${TM_FILEPATH/.+((?:application).+)/$1/:application/models/${1/(.+)/\l$1.php/}} */
+
 ]]></content>
    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
    <tabTrigger>model</tabTrigger>
