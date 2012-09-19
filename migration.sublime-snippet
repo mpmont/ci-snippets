@@ -27,5 +27,5 @@ class Migration_${1:${TM_FILENAME/([0-9]+)_(.+)\..+|.*/\u$2/:Class_name}} extend
     <tabTrigger>migration</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php, text.html.basic, text.plain</scope>
-    <description>CI - Base Controller</description>
+    <description>CI - Base Migration</description>
 </snippet>
