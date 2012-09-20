@@ -11,8 +11,9 @@ class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}} extends ${2:CI}_Contr
 
 }
 
-/* End of file ${1/(.+)/\l$1/:Controllername}.php */
-/* Location: ./application/controllers/${1/(.+)/\l$1/:Controllername}.php */
+/* End of file ${TM_FILENAME:${1/(.+)/\l$1.php/}} */
+/* Location: ./${TM_FILEPATH/.+((?:application).+)/$1/:application/controllers/${1/(.+)/\l$1.php/}} */
+
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>controller</tabTrigger>
