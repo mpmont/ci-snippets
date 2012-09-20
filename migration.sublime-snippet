@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class Migration_${1:${TM_FILENAME/([0-9]+)_(.+)\..+|.*/\u$2/:Class_name}} extends ${2:CI}_Migration {
+
+    public function __construct()
+    {
+        \$this->load->dbforge();${3:
+        \$this->load->database();}
+    }
+
+    public function up() {
+        ${4}
+    }
+
+    public function down() {
+        ${5}
+    }
+
+}
+
+/* End of file ${TM_FILENAME} */
+/* Location: ./application/migrations/${TM_FILENAME} */
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>migration</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php, text.html.basic, text.plain</scope>
+    <description>CI - Base Migration</description>
+</snippet>
