@@ -114,3 +114,4 @@ If you find error or wathever just fork it and send me a pull request.
 - Qcol
 - taiar
 - MetalMatze
+- Blux
