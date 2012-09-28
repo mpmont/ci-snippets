@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->output->enable_profiler(${1:TRUE});
+]]></content>
+	<tabTrigger>output_profiler</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
