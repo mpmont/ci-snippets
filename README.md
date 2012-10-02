@@ -79,6 +79,7 @@ If you find error or wathever just fork it and send me a pull request.
 * db_update
 * db_where
 * db_last
+* db_order
 
 
 #### Misc
