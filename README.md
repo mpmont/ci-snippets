@@ -55,6 +55,7 @@ If you find error or wathever just fork it and send me a pull request.
 * form_textarea
 * form_upload
 * form_validation
+* form_label
 * uri_segment
 
 #### Library
