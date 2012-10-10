@@ -1,10 +1,10 @@
 <snippet>
-   <content><![CDATA[
+	<content><![CDATA[
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:ModelName}} extends ${2:CI}_Model {
 
-    $0
+	$0
 
 }
 
@@ -12,9 +12,7 @@ class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:ModelName}} extends ${2:CI}_Model {
 /* Location: ./${TM_FILEPATH/.+((?:application).+)/$1/:application/models/${1/(.+)/\l$1.php/}} */
 
 ]]></content>
-   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-   <tabTrigger>model</tabTrigger>
-   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.php, text.html.basic, text.plain</scope>
-    <description>CI - Base Model</description>
+	<tabTrigger>model</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description>CI - Base Model</description>
 </snippet>

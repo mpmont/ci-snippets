@@ -1,10 +1,10 @@
 <snippet>
-   <content><![CDATA[
+	<content><![CDATA[
 form_dropdown('${1:name}', \$options, '${2:default}');
 ]]></content>
-   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-   <tabTrigger>form_dropdown</tabTrigger>
-   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-   <scope>source.php, source.php.embedded.block.html</scope>
-   <description>CI - Form Helper - Dropdown</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>form_dropdown</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php, source.php.embedded.block.html</scope>
+	<description>CI - Form Helper - Dropdown</description>
 </snippet>

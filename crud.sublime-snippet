@@ -1,47 +1,48 @@
 <snippet>
-   <content><![CDATA[
+	<content><![CDATA[
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}} extends ${2:CI}_Controller {
 
-   public function __construct()
-   {
-      parent::__construct();
-      ${0://Load Dependencies}
+	public function __construct()
+	{
+		parent::__construct();
+		${0://Load Dependencies}
 
-   }
+	}
 
-   // List all your items
-   public function index( \$offset = 0 )
-   {
+	// List all your items
+	public function index( \$offset = 0 )
+	{
 
-   }
+	}
 
-   // Add a new item
-   public function add()
-   {
+	// Add a new item
+	public function add()
+	{
 
-   }
+	}
 
-   //Update one item
-   public function update( \$id = NULL )
-   {
+	//Update one item
+	public function update( \$id = NULL )
+	{
 
-   }
+	}
 
-   //Delete one item
-   public function delete( \$id = NULL )
-   {
+	//Delete one item
+	public function delete( \$id = NULL )
+	{
 
-   }
+	}
 }
 
-/* End of file ${1/(.+)/\l$1/:Controllername}.php */
-/* Location: ./application/controllers/${1/(.+)/\l$1/:Controllername}.php */
+/* End of file ${TM_FILENAME:${1/(.+)/\l$1.php/}} */
+/* Location: ./${TM_FILEPATH/.+((?:application).+)/$1/:application/controllers/${1/(.+)/\l$1.php/}} */
+
 ]]></content>
-   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-   <tabTrigger>crud</tabTrigger>
-   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-   <scope>source.php</scope>
-   <description>CI - Simple CRUD Controller</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>crud</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Simple CRUD Controller</description>
 </snippet>

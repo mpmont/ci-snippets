@@ -1,5 +1,5 @@
 <snippet>
-   <content><![CDATA[
+	<content><![CDATA[
 \$this->load->library('email');
 
 \$this->email->from('${1:email@email.com}', '${2:Name}');
@@ -14,9 +14,9 @@
 
 echo \$this->email->print_debugger();
 ]]></content>
-   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-   <tabTrigger>email</tabTrigger>
-   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-   <scope>source.php</scope>
-   <description>CI - Email Boilerplate</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>email</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Email Boilerplate</description>
 </snippet>

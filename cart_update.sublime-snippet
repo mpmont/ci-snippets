@@ -1,15 +1,15 @@
 <snippet>
-   <content><![CDATA[
+	<content><![CDATA[
 \$data = array(
-               'rowid' => '${1:yourid}',
-               'qty'   => ${2:3}
-            );
+	'rowid' => '${1:yourid}',
+	'qty'   => ${2:3}
+);
 
 \$this->cart->update($data);
 ]]></content>
-   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-   <tabTrigger>cart_update</tabTrigger>
-   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-   <scope>source.php</scope>
-   <description>CI - Update Cart</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cart_update</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Update Cart</description>
 </snippet>

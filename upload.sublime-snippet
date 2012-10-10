@@ -1,5 +1,5 @@
 <snippet>
-   <content><![CDATA[
+	<content><![CDATA[
 \$config['upload_path'] = '${1:./uploads/}';
 \$config['allowed_types'] = '${2:gif|jpg|png}';
 \$config['max_size']  = '${3:100}';
@@ -9,16 +9,16 @@
 \$this->load->library('upload', \$config);
 
 if ( ! \$this->upload->do_upload()){
-   \$error = array('error' => \$this->upload->display_errors());
+	\$error = array('error' => \$this->upload->display_errors());
 }
 else{
-   \$data = array('upload_data' => \$this->upload->data());
-   echo "success";
+	\$data = array('upload_data' => \$this->upload->data());
+	echo "success";
 }
 ]]></content>
-   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-   <tabTrigger>upload</tabTrigger>
-   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.php</scope>
-    <description>CI - Upload Boilerplate</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>upload</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Upload Boilerplate</description>
 </snippet>

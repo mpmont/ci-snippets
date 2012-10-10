@@ -1,6 +1,6 @@
 <snippet>
-    <content><![CDATA[// ------------------------------------------------------------------------]]></content>
-    <tabTrigger>ciline</tabTrigger>
-    <scope>source.php</scope>
-    <description>ciline</description>
+	<content><![CDATA[// ------------------------------------------------------------------------]]></content>
+	<tabTrigger>ciline</tabTrigger>
+	<scope>source.php</scope>
+	<description>ciline</description>
 </snippet>

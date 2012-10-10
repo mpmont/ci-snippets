@@ -1,19 +1,19 @@
 <snippet>
-   <content><![CDATA[
+	<content><![CDATA[
 \$this->load->library('table');
 
 \$data = array(
-             array('${1:name}', '${2:Color}', '${3:Size}'),
-             array('${4:Fred}', '${5:Blue}', '${6:Small}'),
-             array('${7:Mary}', '${8:Red}', '${9:Large}'),
-             array('${10:John}', '${11:Green}', '${12:Medium}')
-             );
+	array('${1:name}', '${2:Color}', '${3:Size}'),
+	array('${4:Fred}', '${5:Blue}', '${6:Small}'),
+	array('${7:Mary}', '${8:Red}', '${9:Large}'),
+	array('${10:John}', '${11:Green}', '${12:Medium}')
+);
 
 echo \$this->table->generate(\$data);
 ]]></content>
-   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-   <tabTrigger>generate_table</tabTrigger>
-   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-   <scope>source.php, source.php.embedded.block.html</scope>
-   <description>CI - Generate Table</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>generate_table</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php, source.php.embedded.block.html</scope>
+	<description>CI - Generate Table</description>
 </snippet>

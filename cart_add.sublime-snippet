@@ -1,18 +1,18 @@
 <snippet>
-   <content><![CDATA[
+	<content><![CDATA[
 \$data = array(
-               'id'      => '${1:sku_123ABC}',
-               'qty'     => ${2:1},
-               'price'   => '${3:19.56}',
-               'name'    => '${4:T-Shirt}',
-               'options' => array('${5:Size}' => '${6:L}', '${7:Color}' => '${8:Red})'
-            );
+	'id'      => '${1:sku_123ABC}',
+	'qty'     => ${2:1},
+	'price'   => '${3:19.56}',
+	'name'    => '${4:T-Shirt}',
+	'options' => array('${5:Size}' => '${6:L}', '${7:Color}' => '${8:Red})'
+);
 
 \$this->cart->insert($data);
 ]]></content>
-   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-   <tabTrigger>cart_add</tabTrigger>
-   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-   <scope>source.php</scope>
-   <description>CI - Add to Cart</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cart_add</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Add to Cart</description>
 </snippet>

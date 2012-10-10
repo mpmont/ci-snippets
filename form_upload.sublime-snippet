@@ -1,10 +1,10 @@
 <snippet>
-   <content><![CDATA[
+	<content><![CDATA[
 form_upload('${1:name}');
 ]]></content>
-   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-   <tabTrigger>form_upload</tabTrigger>
-   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-   <scope>source.php, source.php.embedded.block.html</scope>
-   <description>CI - Form Helper - Upload Field</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>form_upload</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php, source.php.embedded.block.html</scope>
+	<description>CI - Form Helper - Upload Field</description>
 </snippet>

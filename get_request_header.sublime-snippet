@@ -1,6 +1,8 @@
 <snippet>
-   <content><![CDATA[
+	<content><![CDATA[
 \$this->input->get_request_header();
 ]]></content>
-   <tabTrigger>get_request_header</tabTrigger>
+	<tabTrigger>get_request_header</tabTrigger>
+	<scope>source.php</scope>
+	<description>CI - Get request header</description>
 </snippet>

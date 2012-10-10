@@ -1,6 +1,8 @@
 <snippet>
-   <content><![CDATA[
+	<content><![CDATA[
 \$this->input->is_cli_request()
 ]]></content>
-   <tabTrigger>is_cli</tabTrigger>
+	<tabTrigger>is_cli</tabTrigger>
+	<scope>source.php</scope>
+	<description>CI - Is CLI request</description>
 </snippet>

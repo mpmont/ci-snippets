@@ -1,6 +1,8 @@
 <snippet>
-   <content><![CDATA[
+	<content><![CDATA[
 \$this->input->is_ajax_request()
 ]]></content>
-   <tabTrigger>is_ajax</tabTrigger>
+	<tabTrigger>is_ajax</tabTrigger>
+	<scope>source.php</scope>
+	<description>CI - Is ajax request</description>
 </snippet>

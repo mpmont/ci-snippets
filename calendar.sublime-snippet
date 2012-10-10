@@ -1,17 +1,17 @@
 <snippet>
-   <content><![CDATA[
+	<content><![CDATA[
 \$this->load->library('calendar');
 
 \$data = array(
-               '${1:day}'  => '${2:link}',
-               '${3:day}'  => '${4:link}'
-             );
+	'${1:day}'  => '${2:link}',
+	'${3:day}'  => '${4:link}'
+);
 
 echo \$this->calendar->generate(${5:year}, ${6:month}, \$data);
 ]]></content>
-   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-   <tabTrigger>calendar</tabTrigger>
-   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-   <scope>source.php, source.php.embedded.block.html</scope>
-   <description>CI - Calendar Helper</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>calendar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php, source.php.embedded.block.html</scope>
+	<description>CI - Calendar Helper</description>
 </snippet>
