@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-form_input('${1:name}', '${2:value}', '${3:attributs}');
+form_input('${1:name}', '${2:value}'${3:, \$attributes});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>form_input</tabTrigger>
