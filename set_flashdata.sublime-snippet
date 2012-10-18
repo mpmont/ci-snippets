@@ -6,4 +6,5 @@
 	<tabTrigger>set_flashdata</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.php</scope> -->
+	<description>CI - Set flashdata</description>
 </snippet>

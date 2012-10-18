@@ -6,5 +6,5 @@
 	<tabTrigger>uri_segment</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
-	<description>URI Segment</description>
+	<description>CI - URI Segment</description>
 </snippet>

@@ -4,4 +4,5 @@
 ]]></content>
 	<tabTrigger>output_json</tabTrigger>
 	<scope>source.php</scope>
+	<description>CI - output Json</description>
 </snippet>

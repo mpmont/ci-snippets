@@ -3,4 +3,5 @@
 \$this->input->request_headers()
 ]]></content>
 	<tabTrigger>request_headers</tabTrigger>
+	<description>CI - Request Headers</description>
 </snippet>

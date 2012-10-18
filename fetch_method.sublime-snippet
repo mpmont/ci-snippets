@@ -4,4 +4,5 @@
 ]]></content>
 	<tabTrigger>fetch_method</tabTrigger>
 	<scope>source.php</scope>
+	<description>CI - Fetch Method</description>
 </snippet>

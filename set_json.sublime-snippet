@@ -4,4 +4,5 @@
 ]]></content>
 	<tabTrigger>set_json</tabTrigger>
 	<scope>source.php</scope>
+	<description>CI - Set content type to json</description>
 </snippet>
