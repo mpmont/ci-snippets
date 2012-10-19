@@ -117,3 +117,4 @@ If you find error or wathever just fork it and send me a pull request.
 - taiar
 - MetalMatze
 - Blux
+- Luis Leite
