@@ -1,8 +1,0 @@
-CodeIgniter Snippets 0.1.1 Changelog:
-
-New features:
-
- - Added variables so you can use tab to change from attribute to attribute
-
-Bug Fix:
- - Bug Fix on all the snippets that used the $ symbol
