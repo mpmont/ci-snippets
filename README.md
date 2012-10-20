@@ -81,7 +81,13 @@ If you find error or wathever just fork it and send me a pull request.
 * db_where
 * db_last
 * db_order
-
+* db_result
+* db_result_array
+* db_row
+* db_row_array
+* db_free_result
+* db_num_fields
+* db_num_rows
 
 #### Misc
 
@@ -117,3 +123,4 @@ If you find error or wathever just fork it and send me a pull request.
 - taiar
 - MetalMatze
 - Blux
+- Luis Leite

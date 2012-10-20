@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$${1:Var}->num_rows();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>db_num_rows</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Active Record DB Num Rows</description>
+</snippet>
