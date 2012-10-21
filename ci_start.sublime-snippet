@@ -4,8 +4,8 @@
 
 $0
 
-/* End of file ${1:filename}.php */
-/* Location: ./application/${2:folder}/${3:filename}.php */
+/* End of file ${TM_FILENAME:${1:filename}.php} */
+/* Location: ./${TM_FILEPATH/.+((?:application|system).+)/$1/:application/${2:*models|controllers*}/$1.php/} */
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ci_start</tabTrigger>
