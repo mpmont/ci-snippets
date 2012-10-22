@@ -16,7 +16,7 @@ If you haven't got Package Control installed you will need to make a clone of th
 [sublime]: http://www.sublimetext.com/
 [package_control]: http://wbond.net/sublime_packages/package_control
 
-If you find error or wathever just fork it and send me a pull request.
+If you find error or whatever just fork it and send me a pull request.
 
 ### List of avaiable shortcuts ###
 
@@ -124,3 +124,4 @@ If you find error or wathever just fork it and send me a pull request.
 - MetalMatze
 - Blux
 - Luis Leite
+- José Tomás Tocino
