@@ -1,0 +1,25 @@
+<snippet>
+<content><![CDATA[
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:LibraryName}}
+{
+  protected 	\$ci;
+
+	public function __construct()
+	{
+        \$this->ci =& get_instance();
+	}
+
+	$0
+
+}
+
+/* End of file ${TM_FILENAME:${1/(.+)/\l$1.php/}} */
+/* Location: ./${TM_FILEPATH/.+((?:application).+)/$1/:application/libraries/${1/(.+)/\l$1.php/}} */
+
+]]></content>
+<tabTrigger>library</tabTrigger>
+<scope>source.php, text.html.basic, text.plain</scope>
+<description>CI - New Library</description>
+</snippet>
