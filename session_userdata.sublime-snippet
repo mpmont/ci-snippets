@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->session->userdata('item');
+\$this->session->userdata('${1:item}');
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>session_userdata</tabTrigger>
