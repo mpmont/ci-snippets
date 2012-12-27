@@ -89,6 +89,17 @@ If you find error or whatever just fork it and send me a pull request.
 * db_num_fields
 * db_num_rows
 
+#### Session
+
+* session_userdata
+* session_set_userdata
+* session_all_userdata
+* session_unset_userdata
+* session_set_flashdata
+* session_flashdata
+* session_keep_flashdata
+* session_sess_destroy
+
 #### Misc
 
 * ci_start
@@ -125,3 +136,4 @@ If you find error or whatever just fork it and send me a pull request.
 - Blux
 - Luis Leite
 - José Tomás Tocino
+- Marcelo Diniz
