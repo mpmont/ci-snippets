@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\$array = (
+	'${1:key}' => '${2:value}'
+);
+
+\$this->session->set_userdata( \$array );
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>session_set_userdata</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Session - Adding Custom Session Data</description>
+</snippet>
