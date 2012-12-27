@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$this->session->unset_userdata('${1:some_name}');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>session_unset_userdata</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Session - Removing Session Data</description>
+</snippet>

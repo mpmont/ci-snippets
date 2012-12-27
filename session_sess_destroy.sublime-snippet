@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$this->session->sess_destroy();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>session_sess_destroy</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Session - Destroying a Session</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$this->session->userdata('${1:item}');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>session_userdata</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Session - Retrieving Session Data</description>
+</snippet>
