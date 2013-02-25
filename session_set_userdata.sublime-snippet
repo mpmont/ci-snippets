@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$array = (
+\$array = array(
 	'${1:key}' => '${2:value}'
 );
 
