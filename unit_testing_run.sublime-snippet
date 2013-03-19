@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\$this->unit->run(
+	\$result = ${1},
+	\$expected = ${2:TRUE}${3:,
+	'${1}'}${4:,
+	\$result.' == '. \$expected}
+);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>unit_run</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
