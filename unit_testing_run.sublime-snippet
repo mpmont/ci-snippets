@@ -4,7 +4,7 @@
 	\$result = ${1},
 	\$expected = ${2:TRUE}${3:,
 	'${1}'}${4:,
-	\$result.' == '. \$expected}
+	\htmlentities($result).' == '. \htmlentities($expected)}
 );
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
