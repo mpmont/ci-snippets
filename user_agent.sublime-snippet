@@ -3,5 +3,6 @@
 \$this->input->user_agent()
 ]]></content>
 	<tabTrigger>user_agent</tabTrigger>
+	<scope>source.php</scope>
 	<description>CI - Get user agent</description>
 </snippet>

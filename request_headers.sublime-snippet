@@ -3,5 +3,6 @@
 \$this->input->request_headers()
 ]]></content>
 	<tabTrigger>request_headers</tabTrigger>
+	<scope>source.php</scope>
 	<description>CI - Request Headers</description>
 </snippet>
