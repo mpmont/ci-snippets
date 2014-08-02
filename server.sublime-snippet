@@ -3,5 +3,6 @@
 \$this->input->server('${1:name}');
 ]]></content>
 	<tabTrigger>_server</tabTrigger>
+	<scope>source.php</scope>
 	<description>CI - $_SERVER</description>
 </snippet>

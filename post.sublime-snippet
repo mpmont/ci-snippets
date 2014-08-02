@@ -3,5 +3,6 @@
 \$this->input->post('${1:name}')
 ]]></content>
 	<tabTrigger>_post</tabTrigger>
+	<scope>source.php</scope>
 	<description>CI - $_POST</description>
 </snippet>
