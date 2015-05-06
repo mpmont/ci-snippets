@@ -1,10 +1,11 @@
 <snippet>
 <content><![CDATA[
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 
 class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:LibraryName}}
 {
-  protected 	\$ci;
+	protected \$ci;
 
 	public function __construct()
 	{
