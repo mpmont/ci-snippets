@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+site_url('${1:}')
+]]></content>
+	<tabTrigger>site</tabTrigger>
+	<scope>source.php</scope>
+	<description>CI - URL Helper - site_url</description>
+</snippet>
