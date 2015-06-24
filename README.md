@@ -45,6 +45,7 @@ If you find error or whatever just fork it and send me a pull request.
 
 #### Helper
 
+* _redirect
 * anchor
 * form_checkbox
 * form_dropdown
@@ -57,6 +58,8 @@ If you find error or whatever just fork it and send me a pull request.
 * form_upload
 * form_validation
 * form_label
+* redirect
+* site
 * uri_segment
 * redirect
 * site_helper
@@ -137,6 +140,7 @@ If you find error or whatever just fork it and send me a pull request.
 - Luis Leite
 - José Tomás Tocino
 - Marcelo Diniz
+- Ernesto Acevedo
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mpmont/ci-snippets/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
