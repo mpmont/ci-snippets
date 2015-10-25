@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+if (\$this->form_validation->run() == ${1:TRUE or FALSE}) {
+	${2:# code...}
+} else {
+	${3:# code...}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>form_validation_run</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Form Validation Run</description>
+</snippet>
