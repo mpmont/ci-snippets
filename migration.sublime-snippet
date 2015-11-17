@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Migration_${1:${TM_FILENAME/([0-9]+)_(.+)\..+|.*/\u$2/:Class_name}} extends ${2:CI}_Migration {
 
