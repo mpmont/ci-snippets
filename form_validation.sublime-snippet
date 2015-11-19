@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->form_validation->set_rules('${1:fieldname}', '${2:fieldlabel}', '${3:trim}|${4:required}|${5:min_length[${6:5}]}|${7:max_length[${8:12}]}|${9:xss_clean}');
+\$this->form_validation->set_rules('${1:fieldname}', '${2:fieldlabel}', '${3:trim}|${4:required}|${5:min_length[${6:5}]}|${7:max_length[${8:12}]}');
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>form_validation</tabTrigger>
