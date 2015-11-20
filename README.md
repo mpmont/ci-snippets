@@ -62,7 +62,7 @@ If you find error or whatever just fork it and send me a pull request.
 * _redirect
 * redirect
 * site
-* base
+* ci_base
 
 #### Library
 

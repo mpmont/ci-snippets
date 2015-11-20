@@ -2,7 +2,7 @@
 	<content><![CDATA[
 base_url('${1:}')
 ]]></content>
-	<tabTrigger>base</tabTrigger>
+	<tabTrigger>ci_base</tabTrigger>
 	<scope>source.php</scope>
 	<description>CI - URL Helper - base_url</description>
 </snippet>
