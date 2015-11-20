@@ -1,25 +1,26 @@
+# Codeigniter Snippets #
+
+[![Codeigniter](https://img.shields.io/badge/Codeigniter-v3.0-orange.svg)](http://codeigniter.com/)
+[![Downloads](https://packagecontrol.herokuapp.com/downloads/CodeIgniter%20Snippets.svg?color=80d4cd)](https://packagecontrol.io/packages/CodeIgniter%20Snippets)
+
 This is a [Sublime Text][sublime] package which includes a bunch of handy snippets for doing Codeigniter framework development.
 
-## Installation ##
-
-### With Package Control ###
+### Easy installation ###
 
 If you have the [Package Control][package_control] package installed, you can install Codeigniter framework Snippets from inside Sublime Text itself. Open the Command Palette and select "Package Control: Install Package", then search for Codeigniter framework Snippets.
 
-### Without Package Control ###
+### Manual installation ###
 
-If you haven't got Package Control installed you will need to make a clone of this repository into your packages folder, like so:
+If you haven't got Package Control installed you will need to make a clone of this repository into your packages folder **(Preferences > Browse packages...)**, like so:
 
     git clone https://github.com/mpmont/ci-snippets.git ci-snippets
 
-
-[sublime]: http://www.sublimetext.com/
-[package_control]: http://wbond.net/sublime_packages/package_control
-
 If you find error or whatever just fork it and send me a pull request.
 
-### List of avaiable shortcuts ###
+[sublime]: http://www.sublimetext.com/
+[package_control]: https://packagecontrol.io/
 
+### List of avaiable shortcuts ###
 
 #### Class
 
@@ -45,7 +46,6 @@ If you find error or whatever just fork it and send me a pull request.
 
 #### Helper
 
-* _redirect
 * anchor
 * form_checkbox
 * form_dropdown
@@ -58,11 +58,11 @@ If you find error or whatever just fork it and send me a pull request.
 * form_upload
 * form_validation
 * form_label
+* uri_segment
+* _redirect
 * redirect
 * site
-* uri_segment
-* redirect
-* site_helper
+* base
 
 #### Library
 
@@ -141,6 +141,7 @@ If you find error or whatever just fork it and send me a pull request.
 - José Tomás Tocino
 - Marcelo Diniz
 - Ernesto Acevedo
+- Rodrigo Alves Mesquita
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mpmont/ci-snippets/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
