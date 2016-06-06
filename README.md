@@ -21,6 +21,10 @@ If you find error or whatever just fork it and send me a pull request.
 [sublime]: http://www.sublimetext.com/
 [package_control]: https://packagecontrol.io/
 
+### Atom version
+
+If you are looking for the Atom version of this repo, just go here: https://github.com/taiar/atom-ci-snippets/
+
 ### List of avaiable shortcuts ###
 
 #### Class
