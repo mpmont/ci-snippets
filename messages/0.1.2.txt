@@ -1,7 +1,7 @@
-﻿CodeIgniter Snippets 0.1.1 Changelog:
+﻿CodeIgniter Snippets 0.1.2 Changelog:
 
 New features:
-
+ - Added some love to some of the snippets
  - Added variables so you can use tab to change from attribute to attribute
 
 Bug Fix:

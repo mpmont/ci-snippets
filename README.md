@@ -132,6 +132,7 @@ If you are looking for the Atom version of this repo, just go here: https://gith
 * log
 * ciline
 * eof
+* dd
 
 
 ## List of Contributors
@@ -157,7 +158,3 @@ If you are looking for the Atom version of this repo, just go here: https://gith
 - Marcelo Diniz
 - Ernesto Acevedo
 - Rodrigo Alves Mesquita
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mpmont/ci-snippets/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
